@@ -1,0 +1,8 @@
+name: Working 1 Carlos
+on: [push]
+jobs:
+  build: 
+    runs-on: ubuntu-lastest
+    steps:
+    - name: Print text
+      run: echo "hola mundo"
