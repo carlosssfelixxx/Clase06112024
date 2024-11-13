@@ -1,0 +1,14 @@
+name: Test 1 Workflow
+on:
+  push:
+    branches:
+      - test_1
+jobs:
+  print_messages:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print messages for test_1
+        run: |
+          echo "Rama 1 – Print 1"
+          echo "Rama 1 – Print 2"
+          echo "Rama 1 – Print 3"
